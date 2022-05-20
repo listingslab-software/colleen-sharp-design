@@ -1,11 +1,11 @@
 {
-  "name": "my-app",
-  "version": "0.0.1",
+  "name": "colleen-sharp-design",
+  "version": "0.0.2",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "clear && firebase deploy"
+    "deploy": "clear && npm run build && firebase deploy"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
